@@ -138,6 +138,7 @@
 import { mapState, mapGetters } from 'vuex';
 import GoalCard from '@/components/goals/GoalCard.vue';
 import GoalForm from '@/components/goals/GoalForm.vue';
+import { loadTestData } from '@/utils/testDataLoader';
 
 export default {
   name: 'Goals',
@@ -224,6 +225,17 @@ export default {
       }
       
       return filtered;
+    }
+  },
+  mounted() {
+    console.log('Goals组件已挂载');
+    console.log('当前goals数据:', this.goals);
+    console.log('当前goalCategories数据:', this.goalCategories);
+    
+    // 如果没有goals数据，尝试手动加载测试数据
+    if (!this.goals || this.goals.length === 0) {
+      console.log('未检测到goals数据，尝试手动加载测试数据...');
+      this.loadTestData();
     }
   },
   methods: {
@@ -315,6 +327,10 @@ export default {
           return false;
         }
       });
+    },
+    // 添加测试数据加载方法
+    loadTestData() {
+      loadTestData(this.$store);
     }
   }
 }

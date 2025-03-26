@@ -103,42 +103,55 @@ export default {
     categoryName() {
       const category = this.goalCategoryById(this.goal.category);
       return category ? category.name : '其他';
+    },
+    normalizedGoal() {
+      return {
+        ...this.goal,
+        targetAmount: parseFloat(this.goal.targetAmount) || 0,
+        currentAmount: parseFloat(this.goal.currentAmount) || 0,
+        isActive: typeof this.goal.isActive === 'boolean' ? this.goal.isActive : true,
+        targetDate: this.goal.targetDate || this.goal.deadline || new Date().toISOString().substr(0, 10),
+        priority: typeof this.goal.priority === 'number' ? 
+                  this.goal.priority : 
+                  (this.goal.priority === 'high' ? 5 : 
+                   this.goal.priority === 'medium' ? 3 : 
+                   this.goal.priority === 'low' ? 1 : 3)
+      };
     }
   },
   methods: {
     getPercentage() {
-      return Math.min(Math.round((this.goal.currentAmount / this.goal.targetAmount) * 100), 100);
+      const goal = this.normalizedGoal;
+      return Math.min(Math.round((goal.currentAmount / goal.targetAmount) * 100), 100);
     },
     getRemainingDays() {
       const today = new Date();
-      const targetDate = new Date(this.goal.targetDate);
+      const goal = this.normalizedGoal;
+      const targetDate = new Date(goal.targetDate);
       const timeDiff = targetDate - today;
       const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
       
       return daysDiff > 0 ? daysDiff : 0;
     },
     getPredictedCompletionDate() {
-      if (this.goal.currentAmount >= this.goal.targetAmount) {
+      const goal = this.normalizedGoal;
+      if (goal.currentAmount >= goal.targetAmount) {
         return '已完成';
       }
       
-      // 计算目标开始至今的天数
       const today = new Date();
-      const startDate = new Date(this.goal.startDate);
+      const startDate = new Date(goal.startDate);
       const daysSinceStart = Math.max(Math.ceil((today - startDate) / (1000 * 3600 * 24)), 1);
       
-      // 计算日均存款金额
-      const dailySavingRate = this.goal.currentAmount / daysSinceStart;
+      const dailySavingRate = goal.currentAmount / daysSinceStart;
       
       if (dailySavingRate <= 0) {
         return '无法预测';
       }
       
-      // 计算剩余金额需要的天数
-      const remainingAmount = this.goal.targetAmount - this.goal.currentAmount;
+      const remainingAmount = goal.targetAmount - goal.currentAmount;
       const daysNeeded = Math.ceil(remainingAmount / dailySavingRate);
       
-      // 计算预计完成日期
       const completionDate = new Date();
       completionDate.setDate(completionDate.getDate() + daysNeeded);
       

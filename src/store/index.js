@@ -61,6 +61,30 @@ const getInitialState = () => {
   }
 }
 
+// 添加数据转换函数
+const normalizeGoalData = (goal) => {
+  // 规范化goal对象，确保所有需要的字段都存在并符合期望的格式
+  return {
+    ...goal,
+    // 确保这些字段存在且类型正确
+    id: goal.id || `goal_${Date.now()}`,
+    targetAmount: parseFloat(goal.targetAmount) || 0,
+    currentAmount: parseFloat(goal.currentAmount) || 0,
+    // 优先使用targetDate，如果不存在则使用deadline
+    targetDate: goal.targetDate || goal.deadline || new Date().toISOString().substr(0, 10),
+    // 处理优先级：如果是字符串则转换为数字
+    priority: typeof goal.priority === 'number' ? 
+              goal.priority : 
+              (goal.priority === 'high' ? 5 : 
+               goal.priority === 'medium' ? 3 : 
+               goal.priority === 'low' ? 1 : 3),
+    // 处理活跃状态：根据isActive或status字段
+    isActive: typeof goal.isActive === 'boolean' ? 
+              goal.isActive : 
+              (goal.status === 'inProgress')
+  };
+};
+
 export default new Vuex.Store({
   state: getInitialState(),
   getters: {
@@ -263,17 +287,20 @@ export default new Vuex.Store({
     
     // 目标相关的mutations
     setGoals(state, goals) {
-      state.goals = goals
+      // 规范化所有goal对象
+      state.goals = goals.map(goal => normalizeGoalData(goal));
     },
     
     addGoal(state, goal) {
-      state.goals.push(goal)
+      // 规范化新添加的goal对象
+      state.goals.push(normalizeGoalData(goal));
     },
     
     updateGoal(state, updatedGoal) {
-      const index = state.goals.findIndex(g => g.id === updatedGoal.id)
+      const index = state.goals.findIndex(g => g.id === updatedGoal.id);
       if (index !== -1) {
-        state.goals.splice(index, 1, updatedGoal)
+        // 规范化更新的goal对象
+        state.goals.splice(index, 1, normalizeGoalData(updatedGoal));
       }
     },
     
