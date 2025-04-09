@@ -3,7 +3,7 @@
 运行：
 npm install
 
-node src/utils/database_initialize
+node src/utils/database_initialize.js
 初始化数据库
 
 接着运行：
