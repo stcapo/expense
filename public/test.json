@@ -1,0 +1,944 @@
+{
+  "expenses": [
+    {
+      "id": "1",
+      "amount": 1494,
+      "category": "food",
+      "date": "2025-03-28",
+      "description": "午餐",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "2",
+      "amount": 593.9,
+      "category": "food",
+      "date": "2025-03-24",
+      "description": "烘焙",
+      "paymentMethod": "debit"
+    },
+    {
+      "id": "3",
+      "amount": 1952.4,
+      "category": "food",
+      "date": "2025-04-04",
+      "description": "餐厅",
+      "paymentMethod": "debit"
+    },
+    {
+      "id": "4",
+      "amount": 1616.3,
+      "category": "housing",
+      "date": "2025-03-10",
+      "description": "装修",
+      "paymentMethod": "wechat"
+    },
+    {
+      "id": "5",
+      "amount": 1106.9,
+      "category": "health",
+      "date": "2025-03-25",
+      "description": "医疗保险",
+      "paymentMethod": "debit"
+    },
+    {
+      "id": "6",
+      "amount": 1187.7,
+      "category": "education",
+      "date": "2025-03-29",
+      "description": "文具",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "7",
+      "amount": 399.3,
+      "category": "education",
+      "date": "2025-04-09",
+      "description": "考试费",
+      "paymentMethod": "wechat"
+    },
+    {
+      "id": "8",
+      "amount": 663,
+      "category": "health",
+      "date": "2025-04-03",
+      "description": "体检",
+      "paymentMethod": "wechat"
+    },
+    {
+      "id": "9",
+      "amount": 502,
+      "category": "education",
+      "date": "2025-03-14",
+      "description": "考试费",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "10",
+      "amount": 1235.1,
+      "category": "education",
+      "date": "2025-03-29",
+      "description": "文具",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "11",
+      "amount": 112.4,
+      "category": "shopping",
+      "date": "2025-03-28",
+      "description": "鞋子",
+      "paymentMethod": "debit"
+    },
+    {
+      "id": "12",
+      "amount": 1504,
+      "category": "travel",
+      "date": "2025-04-06",
+      "description": "景点门票",
+      "paymentMethod": "wechat"
+    },
+    {
+      "id": "13",
+      "amount": 1769,
+      "category": "education",
+      "date": "2025-03-23",
+      "description": "考试费",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "14",
+      "amount": 1387,
+      "category": "food",
+      "date": "2025-03-15",
+      "description": "早餐",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "15",
+      "amount": 1017.9,
+      "category": "entertainment",
+      "date": "2025-03-26",
+      "description": "展览",
+      "paymentMethod": "credit"
+    },
+    {
+      "id": "16",
+      "amount": 1362,
+      "category": "travel",
+      "date": "2025-04-05",
+      "description": "签证费",
+      "paymentMethod": "credit"
+    },
+    {
+      "id": "17",
+      "amount": 1607.4,
+      "category": "entertainment",
+      "date": "2025-04-08",
+      "description": "KTV",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "18",
+      "amount": 1619.3,
+      "category": "shopping",
+      "date": "2025-04-02",
+      "description": "首饰",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "19",
+      "amount": 1216.7,
+      "category": "entertainment",
+      "date": "2025-03-18",
+      "description": "游戏充值",
+      "paymentMethod": "credit"
+    },
+    {
+      "id": "20",
+      "amount": 1321.2,
+      "category": "shopping",
+      "date": "2025-04-05",
+      "description": "配件",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "21",
+      "amount": 1365.8,
+      "category": "entertainment",
+      "date": "2025-03-19",
+      "description": "音乐会",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "22",
+      "amount": 748.6,
+      "category": "education",
+      "date": "2025-04-04",
+      "description": "考试费",
+      "paymentMethod": "credit"
+    },
+    {
+      "id": "23",
+      "amount": 1762,
+      "category": "entertainment",
+      "date": "2025-04-02",
+      "description": "音乐会",
+      "paymentMethod": "credit"
+    },
+    {
+      "id": "24",
+      "amount": 1276,
+      "category": "other",
+      "date": "2025-03-11",
+      "description": "订阅费",
+      "paymentMethod": "alipay"
+    },
+    {
+      "id": "25",
+      "amount": 1555.9,
+      "category": "shopping",
+      "date": "2025-04-03",
+      "description": "鞋子",
+      "paymentMethod": "debit"
+    },
+    {
+      "id": "26",
+      "amount": 570.3,
+      "category": "travel",
+      "date": "2025-03-19",
+      "description": "机票",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "27",
+      "amount": 378.3,
+      "category": "food",
+      "date": "2025-03-23",
+      "description": "零食",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "28",
+      "amount": 1457,
+      "category": "health",
+      "date": "2025-04-04",
+      "description": "体检",
+      "paymentMethod": "wechat"
+    },
+    {
+      "id": "29",
+      "amount": 247.3,
+      "category": "housing",
+      "date": "2025-03-25",
+      "description": "房租",
+      "paymentMethod": "cash"
+    },
+    {
+      "id": "30",
+      "amount": 1919,
+      "category": "travel",
+      "date": "2025-03-24",
+      "description": "酒店",
+      "paymentMethod": "cash"
+    }
+  ],
+  "incomes": [
+    {
+      "id": "inc_1",
+      "amount": 9003,
+      "category": "investment",
+      "date": "2025-03-11",
+      "description": "理财产品收益",
+      "source": "investment"
+    },
+    {
+      "id": "inc_2",
+      "amount": 2205,
+      "category": "bonus",
+      "date": "2025-03-30",
+      "description": "季度奖金",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_3",
+      "amount": 2576,
+      "category": "investment",
+      "date": "2025-03-25",
+      "description": "定期存款利息",
+      "source": "investment"
+    },
+    {
+      "id": "inc_4",
+      "amount": 9183,
+      "category": "parttime",
+      "date": "2025-03-21",
+      "description": "授课费",
+      "source": "refund"
+    },
+    {
+      "id": "inc_5",
+      "amount": 5943.8,
+      "category": "gift",
+      "date": "2025-03-20",
+      "description": "奖励金",
+      "source": "salary"
+    },
+    {
+      "id": "inc_6",
+      "amount": 8927,
+      "category": "salary",
+      "date": "2025-03-11",
+      "description": "工资到账",
+      "source": "salary"
+    },
+    {
+      "id": "inc_7",
+      "amount": 6105,
+      "category": "salary",
+      "date": "2025-03-13",
+      "description": "月工资",
+      "source": "salary"
+    },
+    {
+      "id": "inc_8",
+      "amount": 5685,
+      "category": "gift",
+      "date": "2025-03-27",
+      "description": "奖励金",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_9",
+      "amount": 3508,
+      "category": "investment",
+      "date": "2025-04-07",
+      "description": "债券收益",
+      "source": "refund"
+    },
+    {
+      "id": "inc_10",
+      "amount": 7328.1,
+      "category": "other",
+      "date": "2025-03-15",
+      "description": "版权收入",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_11",
+      "amount": 7812,
+      "category": "salary",
+      "date": "2025-03-24",
+      "description": "月薪",
+      "source": "salary"
+    },
+    {
+      "id": "inc_12",
+      "amount": 3969,
+      "category": "parttime",
+      "date": "2025-03-26",
+      "description": "兼职项目",
+      "source": "salary"
+    },
+    {
+      "id": "inc_13",
+      "amount": 7877,
+      "category": "bonus",
+      "date": "2025-03-13",
+      "description": "季度奖金",
+      "source": "investment"
+    },
+    {
+      "id": "inc_14",
+      "amount": 8286.2,
+      "category": "salary",
+      "date": "2025-03-20",
+      "description": "月工资",
+      "source": "salary"
+    },
+    {
+      "id": "inc_15",
+      "amount": 1884,
+      "category": "gift",
+      "date": "2025-04-06",
+      "description": "意外之财",
+      "source": "refund"
+    },
+    {
+      "id": "inc_16",
+      "amount": 5568,
+      "category": "gift",
+      "date": "2025-03-28",
+      "description": "礼金",
+      "source": "refund"
+    },
+    {
+      "id": "inc_17",
+      "amount": 2168,
+      "category": "investment",
+      "date": "2025-03-23",
+      "description": "理财产品收益",
+      "source": "salary"
+    },
+    {
+      "id": "inc_18",
+      "amount": 3615,
+      "category": "investment",
+      "date": "2025-03-12",
+      "description": "利息收入",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_19",
+      "amount": 6886,
+      "category": "other",
+      "date": "2025-03-15",
+      "description": "保险赔付",
+      "source": "gift"
+    },
+    {
+      "id": "inc_20",
+      "amount": 9547,
+      "category": "bonus",
+      "date": "2025-03-11",
+      "description": "季度奖金",
+      "source": "gift"
+    },
+    {
+      "id": "inc_21",
+      "amount": 5600,
+      "category": "gift",
+      "date": "2025-03-17",
+      "description": "生日红包",
+      "source": "investment"
+    },
+    {
+      "id": "inc_22",
+      "amount": 6401,
+      "category": "other",
+      "date": "2025-03-20",
+      "description": "版权收入",
+      "source": "refund"
+    },
+    {
+      "id": "inc_23",
+      "amount": 6259,
+      "category": "parttime",
+      "date": "2025-03-30",
+      "description": "咨询费",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_24",
+      "amount": 6840,
+      "category": "gift",
+      "date": "2025-03-13",
+      "description": "奖励金",
+      "source": "refund"
+    },
+    {
+      "id": "inc_25",
+      "amount": 270,
+      "category": "gift",
+      "date": "2025-03-20",
+      "description": "生日红包",
+      "source": "gift"
+    },
+    {
+      "id": "inc_26",
+      "amount": 6113,
+      "category": "salary",
+      "date": "2025-03-16",
+      "description": "月工资",
+      "source": "salary"
+    },
+    {
+      "id": "inc_27",
+      "amount": 851.8,
+      "category": "gift",
+      "date": "2025-03-30",
+      "description": "生日红包",
+      "source": "sidejob"
+    },
+    {
+      "id": "inc_28",
+      "amount": 9740,
+      "category": "other",
+      "date": "2025-04-08",
+      "description": "意外所得",
+      "source": "salary"
+    },
+    {
+      "id": "inc_29",
+      "amount": 7770,
+      "category": "investment",
+      "date": "2025-03-27",
+      "description": "基金收益",
+      "source": "salary"
+    },
+    {
+      "id": "inc_30",
+      "amount": 7730,
+      "category": "investment",
+      "date": "2025-03-11",
+      "description": "利息收入",
+      "source": "salary"
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "name": "餐饮",
+      "icon": "el-icon-food",
+      "color": "#FF9800"
+    },
+    {
+      "id": "shopping",
+      "name": "购物",
+      "icon": "el-icon-shopping-bag",
+      "color": "#E91E63"
+    },
+    {
+      "id": "housing",
+      "name": "住房",
+      "icon": "el-icon-house",
+      "color": "#673AB7"
+    },
+    {
+      "id": "transportation",
+      "name": "交通",
+      "icon": "el-icon-truck",
+      "color": "#2196F3"
+    },
+    {
+      "id": "entertainment",
+      "name": "娱乐",
+      "icon": "el-icon-film",
+      "color": "#00BCD4"
+    },
+    {
+      "id": "health",
+      "name": "医疗健康",
+      "icon": "el-icon-first-aid-kit",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "education",
+      "name": "教育",
+      "icon": "el-icon-reading",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "travel",
+      "name": "旅行",
+      "icon": "el-icon-place",
+      "color": "#3F51B5"
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "icon": "el-icon-more",
+      "color": "#9E9E9E"
+    }
+  ],
+  "incomeCategories": [
+    {
+      "id": "salary",
+      "name": "工资收入",
+      "icon": "el-icon-money",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "bonus",
+      "name": "奖金",
+      "icon": "el-icon-present",
+      "color": "#FF9800"
+    },
+    {
+      "id": "investment",
+      "name": "投资收益",
+      "icon": "el-icon-data-line",
+      "color": "#2196F3"
+    },
+    {
+      "id": "parttime",
+      "name": "兼职收入",
+      "icon": "el-icon-s-cooperation",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "gift",
+      "name": "礼金收入",
+      "icon": "el-icon-box",
+      "color": "#E91E63"
+    },
+    {
+      "id": "other",
+      "name": "其他收入",
+      "icon": "el-icon-more",
+      "color": "#607D8B"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_1",
+      "name": "健康检查",
+      "targetAmount": 24903,
+      "currentAmount": 8162,
+      "startDate": "2025-02-10",
+      "targetDate": "2026-04-10",
+      "description": "为健康检查储蓄资金",
+      "category": "health",
+      "priority": 1,
+      "isActive": true,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "goal_2",
+      "name": "理财目标",
+      "targetAmount": 89542,
+      "currentAmount": 12878,
+      "startDate": "2024-12-10",
+      "targetDate": "2027-04-10",
+      "description": "为理财目标储蓄资金",
+      "category": "investment",
+      "priority": 5,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_3",
+      "name": "旅行基金",
+      "targetAmount": 15158,
+      "currentAmount": 4506,
+      "startDate": "2024-12-10",
+      "targetDate": "2025-12-10",
+      "description": "为旅行基金储蓄资金",
+      "category": "travel",
+      "priority": 5,
+      "isActive": true,
+      "color": "#3F51B5"
+    },
+    {
+      "id": "goal_4",
+      "name": "股票投资",
+      "targetAmount": 8327,
+      "currentAmount": 5989,
+      "startDate": "2024-12-10",
+      "targetDate": "2026-10-10",
+      "description": "为股票投资储蓄资金",
+      "category": "investment",
+      "priority": 5,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_5",
+      "name": "节日购物",
+      "targetAmount": 57022,
+      "currentAmount": 43347,
+      "startDate": "2024-11-10",
+      "targetDate": "2026-05-10",
+      "description": "为节日购物储蓄资金",
+      "category": "shopping",
+      "priority": 4,
+      "isActive": true,
+      "color": "#E91E63"
+    },
+    {
+      "id": "goal_6",
+      "name": "房屋首付",
+      "targetAmount": 95437,
+      "currentAmount": 50104,
+      "startDate": "2025-02-10",
+      "targetDate": "2026-10-10",
+      "description": "为房屋首付储蓄资金",
+      "category": "housing",
+      "priority": 2,
+      "isActive": true,
+      "color": "#673AB7"
+    },
+    {
+      "id": "goal_7",
+      "name": "车辆购置",
+      "targetAmount": 51410,
+      "currentAmount": 37193,
+      "startDate": "2025-01-10",
+      "targetDate": "2026-08-10",
+      "description": "为车辆购置储蓄资金",
+      "category": "transportation",
+      "priority": 2,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_8",
+      "name": "紧急备用金",
+      "targetAmount": 20584,
+      "currentAmount": 14962,
+      "startDate": "2025-03-10",
+      "targetDate": "2026-07-10",
+      "description": "为紧急备用金储蓄资金",
+      "category": "saving",
+      "priority": 4,
+      "isActive": true,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "goal_9",
+      "name": "生活储蓄",
+      "targetAmount": 25905,
+      "currentAmount": 2051,
+      "startDate": "2025-03-10",
+      "targetDate": "2025-08-10",
+      "description": "为生活储蓄储蓄资金",
+      "category": "saving",
+      "priority": 3,
+      "isActive": true,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "goal_10",
+      "name": "奢侈品购买",
+      "targetAmount": 23257,
+      "currentAmount": 10923,
+      "startDate": "2024-12-10",
+      "targetDate": "2026-03-10",
+      "description": "为奢侈品购买储蓄资金",
+      "category": "shopping",
+      "priority": 5,
+      "isActive": true,
+      "color": "#E91E63"
+    },
+    {
+      "id": "goal_11",
+      "name": "爱好发展",
+      "targetAmount": 52145,
+      "currentAmount": 11695,
+      "startDate": "2025-04-10",
+      "targetDate": "2026-04-10",
+      "description": "为爱好发展储蓄资金",
+      "category": "other",
+      "priority": 4,
+      "isActive": true,
+      "color": "#9E9E9E"
+    },
+    {
+      "id": "goal_12",
+      "name": "家电更新",
+      "targetAmount": 43960,
+      "currentAmount": 22468,
+      "startDate": "2024-11-10",
+      "targetDate": "2026-11-10",
+      "description": "为家电更新储蓄资金",
+      "category": "shopping",
+      "priority": 2,
+      "isActive": true,
+      "color": "#E91E63"
+    },
+    {
+      "id": "goal_13",
+      "name": "意外准备",
+      "targetAmount": 85801,
+      "currentAmount": 52390,
+      "startDate": "2025-01-10",
+      "targetDate": "2025-11-10",
+      "description": "为意外准备储蓄资金",
+      "category": "other",
+      "priority": 5,
+      "isActive": true,
+      "color": "#9E9E9E"
+    },
+    {
+      "id": "goal_14",
+      "name": "紧急备用金",
+      "targetAmount": 98788,
+      "currentAmount": 49325,
+      "startDate": "2025-01-10",
+      "targetDate": "2027-04-10",
+      "description": "为紧急备用金储蓄资金",
+      "category": "saving",
+      "priority": 2,
+      "isActive": true,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "goal_15",
+      "name": "基金定投",
+      "targetAmount": 15694,
+      "currentAmount": 2552,
+      "startDate": "2024-10-10",
+      "targetDate": "2025-10-10",
+      "description": "为基金定投储蓄资金",
+      "category": "investment",
+      "priority": 4,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_16",
+      "name": "考证费用",
+      "targetAmount": 16724,
+      "currentAmount": 12758,
+      "startDate": "2024-11-10",
+      "targetDate": "2026-02-10",
+      "description": "为考证费用储蓄资金",
+      "category": "education",
+      "priority": 1,
+      "isActive": true,
+      "color": "#9C27B0"
+    },
+    {
+      "id": "goal_17",
+      "name": "旅行基金",
+      "targetAmount": 20884,
+      "currentAmount": 87,
+      "startDate": "2025-01-10",
+      "targetDate": "2025-07-10",
+      "description": "为旅行基金储蓄资金",
+      "category": "travel",
+      "priority": 4,
+      "isActive": true,
+      "color": "#3F51B5"
+    },
+    {
+      "id": "goal_18",
+      "name": "投资启动金",
+      "targetAmount": 80329,
+      "currentAmount": 56071,
+      "startDate": "2024-11-10",
+      "targetDate": "2026-05-10",
+      "description": "为投资启动金储蓄资金",
+      "category": "investment",
+      "priority": 3,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_19",
+      "name": "理财目标",
+      "targetAmount": 55941,
+      "currentAmount": 7390,
+      "startDate": "2024-10-10",
+      "targetDate": "2025-07-10",
+      "description": "为理财目标储蓄资金",
+      "category": "investment",
+      "priority": 2,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_20",
+      "name": "理财目标",
+      "targetAmount": 31011,
+      "currentAmount": 6933,
+      "startDate": "2025-01-10",
+      "targetDate": "2026-03-10",
+      "description": "为理财目标储蓄资金",
+      "category": "investment",
+      "priority": 3,
+      "isActive": true,
+      "color": "#2196F3"
+    },
+    {
+      "id": "goal_21",
+      "name": "度假资金",
+      "targetAmount": 57325,
+      "currentAmount": 34769,
+      "startDate": "2024-10-10",
+      "targetDate": "2026-11-10",
+      "description": "为度假资金储蓄资金",
+      "category": "travel",
+      "priority": 1,
+      "isActive": true,
+      "color": "#3F51B5"
+    },
+    {
+      "id": "goal_22",
+      "name": "汽车保养",
+      "targetAmount": 34292,
+      "currentAmount": 18993,
+      "startDate": "2024-12-10",
+      "targetDate": "2026-02-10",
+      "description": "为汽车保养储蓄资金",
+      "category": "transportation",
+      "priority": 5,
+      "isActive": true,
+      "color": "#2196F3"
+    }
+  ],
+  "goalCategories": [
+    {
+      "id": "saving",
+      "name": "储蓄",
+      "icon": "el-icon-money",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "investment",
+      "name": "投资",
+      "icon": "el-icon-data-line",
+      "color": "#2196F3"
+    },
+    {
+      "id": "travel",
+      "name": "旅行",
+      "icon": "el-icon-place",
+      "color": "#3F51B5"
+    },
+    {
+      "id": "shopping",
+      "name": "购物",
+      "icon": "el-icon-shopping-bag",
+      "color": "#E91E63"
+    },
+    {
+      "id": "housing",
+      "name": "住房",
+      "icon": "el-icon-house",
+      "color": "#673AB7"
+    },
+    {
+      "id": "transportation",
+      "name": "交通",
+      "icon": "el-icon-truck",
+      "color": "#2196F3"
+    },
+    {
+      "id": "education",
+      "name": "教育",
+      "icon": "el-icon-reading",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "health",
+      "name": "健康",
+      "icon": "el-icon-first-aid-kit",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "icon": "el-icon-more",
+      "color": "#9E9E9E"
+    }
+  ],
+  "budget": {
+    "total": 5012,
+    "categoryLimits": {
+      "food": 1037,
+      "shopping": 356,
+      "housing": 330,
+      "transportation": 705,
+      "entertainment": 719,
+      "health": 425,
+      "education": 1064,
+      "travel": 1571,
+      "other": 1426
+    }
+  },
+  "settings": {
+    "currency": "CNY",
+    "language": "zh-CN",
+    "theme": "light"
+  },
+  "exportDate": "2025-04-09T16:14:51.119Z"
+}

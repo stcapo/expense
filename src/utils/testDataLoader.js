@@ -10,7 +10,7 @@
 export const loadTestData = (store) => {
   console.log('开始加载测试数据...');
   
-  fetch('/test-data-complete.json')
+  fetch('/test.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);

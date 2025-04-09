@@ -4,7 +4,7 @@
       </el-menu-item><template>
   <div class="sidebar">
     <div class="logo-container">
-      <h1 class="logo-title">个人财务</h1>
+      <h1 class="logo-title">智能消费记账系统</h1>
     </div>
     <el-menu
       :default-active="activeIndex"
